@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-#background-video {
+/* #background-video {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -18,7 +18,7 @@
     top: 0;
     bottom: 0;
     z-index: -1;
-  }
+  } */
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -59,7 +59,7 @@ nav {
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
     text-decoration-color: white;
 }
@@ -73,7 +73,7 @@ a:hover {
 
 .logo {
     font-size: 2rem;
-    color: white;
+    color: black;
 }
 
 .logo:hover {
@@ -111,7 +111,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: white;
+    background-color: black;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -123,7 +123,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: white;
+    color: black;
     text-decoration: none;
     transition:  all 0.3 ease-in-out;
 }
@@ -173,9 +173,9 @@ section {
     display: flex;
 }
 
-/* Profile Section */
+/* About Section */
 
-#profile {
+#home {
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -201,13 +201,13 @@ section {
 .section__text__p1 {
     text-align: center;
     margin-bottom: 1rem;
-    color: white;
+    color: black;
 }
 
 .title {
     font-size: 3rem;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #social-container {
@@ -217,11 +217,60 @@ section {
     gap: 1rem;
 }
 
+/* Mission SECTION */
+
+#mission {
+    position: relative;
+}
+
+.about-containers {
+   gap: 2rem; 
+   margin-bottom: 2rem;
+   margin-top: 1rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, 
+.about-details-container{
+    display: flex;
+}
+
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container{
+    gap: 1rem;
+    height: 60%;
+}
+
 /*Icon*/
 
 .icon {
     cursor: pointer;
     height: 2rem;
+}
+
+/* About SECTION */
+#about {
+    position: relative;
 }
 
 /*Buttons*/
