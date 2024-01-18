@@ -217,50 +217,6 @@ section {
     gap: 1rem;
 }
 
-/* Mission SECTION */
-
-#mission {
-    position: relative;
-}
-
-.about-containers {
-   gap: 2rem; 
-   margin-bottom: 2rem;
-   margin-top: 1rem;
-}
-
-.about-details-container{
-    justify-content: center;
-    flex-direction: column;
-}
-
-.about-containers, 
-.about-details-container{
-    display: flex;
-}
-
-
-.arrow{
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
-}
-
-.details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
-}
-
-.section-container{
-    gap: 1rem;
-    height: 60%;
-}
-
 /*Icon*/
 
 .icon {
@@ -268,10 +224,6 @@ section {
     height: 2rem;
 }
 
-/* About SECTION */
-#about {
-    position: relative;
-}
 
 /*Buttons*/
 .btn-container {
@@ -303,4 +255,103 @@ section {
 
 .btn-container {
     gap: 1rem;
+}
+
+/* Mission SECTION */
+
+#mission {
+    position: relative;
+    justify-content: center;
+    gap: 5rem;
+    height: 70vh;
+}
+
+.about-containers {
+   gap: 2rem; 
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, 
+.about-details-container{
+    display: flex;
+}
+
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+/* .section-container{
+    gap: 4rem;
+    height: 80%;
+} */
+
+/* About SECTION */
+#about {
+    position: relative;
+    justify-content: center;
+    gap: 5rem;
+    height: 70vh;
+}
+
+/* Programs SECTION */
+
+#programs {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+}
+
+.program-img{
+    border-radius: 2rem;
+    width: 80%;
+    height: 80%;
+}
+
+.program-title{
+    margin: 1rem;
+    color: black;
+}
+
+.program-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.program-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
 }
