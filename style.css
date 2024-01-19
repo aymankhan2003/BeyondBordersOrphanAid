@@ -96,10 +96,10 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: yellow;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: red;
 }
 
 .logo {
@@ -276,8 +276,8 @@ section {
 }
 
 .btn-color-1{
-    background: rgb(53, 53, 53);
-    color: white;
+    background: yellow;
+    color: orange;
 }
 
 .btn-color-1:hover {
@@ -376,11 +376,15 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: yellow;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+}
+
+.details-container:hover{
+    background: white;
 }
 
 /* .section-container{
@@ -404,7 +408,11 @@ section {
 
 .color-container {
     border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    background: yellow;
+}
+
+.color-container:hover {
+    background: white;
 }
 
 .program-img{
@@ -471,7 +479,7 @@ section {
 
 .contact-details-container {
     padding: 0.9rem;
-    background: white;
+    background: orange;
     border-radius: 3rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
@@ -479,6 +487,6 @@ section {
 }
 
 .contact-details-container:hover {
-    background: yellow;
+    background: white;
     color: black;
 }
