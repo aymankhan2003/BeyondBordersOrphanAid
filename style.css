@@ -344,7 +344,7 @@ section {
     position: relative;
     justify-content: center;
     gap: 5rem;
-    height: 70vh;
+    height: 60vh;
 }
 
 .about-containers {
@@ -396,13 +396,16 @@ section {
     position: relative;
     justify-content: center;
     gap: 5rem;
-    height: 70vh;
+    height: 60vh;
 }
 
 /* Programs SECTION */
 
 #programs {
     position: relative;
+    justify-content: center;
+    gap: 5rem;
+    height: 125vh;
 }
 
 .color-container {
@@ -416,8 +419,8 @@ section {
 
 .program-img{
     border-radius: 2rem;
-    width: 80%;
-    height: 80%;
+    width: 30%;
+    height: 30%;
 }
 
 .program-title{
