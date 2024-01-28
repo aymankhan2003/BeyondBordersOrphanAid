@@ -296,7 +296,10 @@ section {
 
 .btn-color-3,
 .btn-color-4,
-.btn-color-5,
+.btn-color-5{
+    background: lightyellow;
+}
+
 .btn-color-6{
     background: yellow;
 }
@@ -543,7 +546,7 @@ section {
     position: relative;
     justify-content: center;
     gap: 5rem;
-    height: 95vh;
+    height: 105vh;
 }
 
 .section_text_contact {
