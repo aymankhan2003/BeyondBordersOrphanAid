@@ -63,7 +63,7 @@ nav {
 .nav-links {
     gap: 0.5rem;
     list-style: none;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 a {
@@ -276,7 +276,7 @@ section {
 .btn-color-4,
 .btn-color-5,
 .btn-color-6{
-    background: lightyellow;
+    background: yellow;
 }
 
 .btn-container {
@@ -352,7 +352,7 @@ section {
 
 .arrow{
     position: absolute;
-    right: -5rem;
+    right: 1rem;
     bottom: 2.5rem;
 }
 
@@ -495,6 +495,30 @@ section {
     font-style: italic;
     font-size: 0.8rem;
     color: black;
+}
+
+/* Team Section */
+#team {
+    position: relative;
+    justify-content: center;
+    gap: 5rem;
+    height: 185vh;
+}
+
+.program-title1{
+    margin: 1rem;
+    color: black;
+}
+
+.program-sub-title1 {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.missionp1{
+    font-size: 5px;
 }
 
 /* Contact Section */
