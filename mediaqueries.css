@@ -578,6 +578,10 @@ section {
     background: black;
     color: black;
 }
+
+.newsletter{
+    font-size: 1rem;
+}
 }
 
 
@@ -966,7 +970,7 @@ section {
  
  #programs {
      position: relative;
-     height: 85vh;
+     height: 110vh;
  }
  
  .color-container {
@@ -1016,7 +1020,7 @@ section {
      position: relative;
      justify-content: center;
      gap: 5rem;
-     height: 75vh;
+     height: 80vh;
  }
  
  .img-gallery{
@@ -1079,7 +1083,7 @@ section {
      position: relative;
      justify-content: center;
      gap: 5rem;
-     height: 140vh;
+     height: 180vh;
  }
  
  .program-title1{
@@ -1152,4 +1156,8 @@ section {
      background: black;
      color: black;
  }
+
+ .newsletter{
+    font-size: 1rem;
+}
 }

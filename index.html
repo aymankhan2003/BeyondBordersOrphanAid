@@ -336,6 +336,32 @@
             <button class="btn btn-color-6" onclick="window.open('https://www.paypal.com/donate/?hosted_button_id=BDN4HPDBBNQPN')">
                 Donate</button>
         </div>
+        <div class="newsletter">
+            <form name="submit-to-google-sheet">
+                <label>Sign Up for our NewsLetters: </label><br>
+                <input type="email" name="email" placeholder="Email" required>
+                <button type="submit">Send</button>
+                <span id="success"></span>
+            </form>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbyaK6S7Iem_8La9i1bN7MlcV_JIvw-hjIqgSGiyxa16i4dwCbcF-uGyhagA_eWkR3fS6w/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const success = document.getElementById('success');
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        success.innerHTML="Thank you for signing up for our newsletters!";
+
+                        setTimeout(function(){
+                            success.innerHTML="";
+                        },4000)
+                        form.reset();
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+        </div>
         </div>
         </div>
         </div>
